@@ -6,6 +6,15 @@
     background-color: rgb(187, 228, 224);
     border-radius: 15px;
 }
+.calculator:hover
+{
+        box-shadow:
+                1px 1px hsl(207, 78%, 62%),
+                2px 2px hsl(207, 78%, 62%),
+                3px 3px hsl(207, 78%, 62%);
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
 .screen {
     width: 410px;
     margin-left: 46px;
@@ -48,4 +57,25 @@ background-color:rgb(131, 197, 202);
 .icon-img{
     height: 30px;
     width: 30px;
+}
+.mouseHover{
+    height: 97px;
+    width: 28px;
+    background-color: rgb(131, 197, 202);
+    margin-top: -345px;
+    margin-left: 888px;
+    bottom: 30px;
+    left: 30px;
+    border-radius: 5px;
+    color-adjust: initial;
+    color-interpolation-filters: linearRGB;
+}
+.mouseHover:hover
+{
+        -webkit-transform: scale(5.3);
+        -ms-transform: scale(2);
+        -webkit-transition: transform 1.0s;
+        transform: scale(3);
+        width: 85px;
+        height: 70px;
 }
