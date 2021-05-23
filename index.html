@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <!--DESIGN-->
+        <div class="calculator">
+            <div>
+                <input class="screen" id="input" type="text">
+            </div>
+
+                <div class="row">
+                    <button class="btn" onclick="fullReset()">C</button>
+                    <button class="btn" onclick="clickOperation('mod')">%</button>
+                    <button class="btn" onclick="backSpace()"><img class="icon-img" src="clr-image.png"></button>
+                    <button class="btn" onclick="clickOperation('div')">/</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="clickButton('7')">7</button>
+                    <button class="btn" onclick="clickButton('8')">8</button>
+                    <button class="btn" onclick="clickButton('9')">9</button>
+                    <button X class="btn" onclick="clickOperation('mul')">X</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="clickButton('4')">4</button>
+                    <button class="btn" onclick="clickButton('5')">5</button>
+                    <button class="btn" onclick="clickButton('6')">6</button>
+                    <button class="btn" onclick="clickOperation('sub')">-</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="clickButton('1')">1</button>
+                    <button class="btn" onclick="clickButton('2')">2</button>
+                    <button class="btn" onclick="clickButton('3')">3</button>
+                    <button class="btn" onclick="clickOperation('plus')">+</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="clickButton('00')">00</button>
+                    <button class="btn" onclick="clickButton('0')">0</button>
+                    <button class="btn" onclick="clickButton('.')">.</button>
+                    <button class="btn" onclick="equalOperation('equal')">=</button>
+                </div>
+        </div>
+
+    </div>
+</body>
+</html>
